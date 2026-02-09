@@ -1,0 +1,27 @@
+body {
+    background-color: #ebf5fb;
+    padding: 40px;
+}
+
+h1 {
+    color: #154360;
+    font-family: 'Times New Roman', serif;
+    font-size: 45px;
+    text-align: right;
+}
+
+h2 {
+    color: #2980b9;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+p {
+    color: #2c3e50;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    max-width: 600px;
+    margin-left: auto;
+}

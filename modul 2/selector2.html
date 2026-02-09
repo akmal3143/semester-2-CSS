@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selektor dalam HTML</title>
+    <style>
+        /*selektor tag*/
+        p {
+            color: blue;
+            background-color: aquamarine;
+            border-radius: 16px;
+            border: 3px solid black;
+            padding: 15px;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .biru {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border-radius: 16px;
+            border: 3px solid black;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #merah {
+            color: white;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 16px;
+            border: 3px solid black;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        /*selektor tag*/
+        input[type="text"] {
+            width: 500px;
+            height: 100px;
+            border-radius: 16px;
+            border: 3px solid green;
+            padding: 5px;  
+            margin-top: 20px;
+            margin-bottom: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <!-- selektor tag <p> -->
+    <p>ini adalah paragraf dalam halaman selektor.</p>
+    <!-- selektor class nama clss : biru -->
+     <div class="biru">
+
+     </div>
+     <!-- selektor id nama id : merah -->
+      <div id="merah">
+        ini adalah div id merah
+      </div>
+      <!-- selektor atribut -->
+       <input type="text" placeholder="masukkan teks di sini">
+</body>
+</html>
